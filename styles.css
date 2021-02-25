@@ -1,0 +1,36 @@
+html {
+  padding: 2rem;
+}
+
+p {
+  font-style: italic;
+}
+body {
+  background-image: url("images/186280585.jpg");
+  background-size: 1024px 684px;
+  background-attachment: 100vh;
+  background-repeat: no-repeat;
+}
+
+br {
+  padding-bottom: 0.3rem;
+  color: black;
+}
+
+img {
+  width: 10%;
+  height: 10%;
+}
+
+img:hover {
+  width: 60%;
+  height: 60%;
+  transform: rotate(180 deg);
+  border: solid 0.5rem palevioletred;
+  transition: 4s;
+}
+.link:hover {
+  font-size: 200rem;
+  color: rgb(66, 26, 177);
+  transition: 15s;
+}
