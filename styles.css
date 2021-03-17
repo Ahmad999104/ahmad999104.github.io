@@ -1,37 +1,15 @@
 html {
-  padding: 2rem;
+  text-align: center;
 }
 
 p {
-  font-style: italic;
+  font-family: "Courier New", Courier, monospace;
+  background-color: aqua;
 }
-body {
-  background-image: url("images/186280585.jpg");
-  background-size: cover;
-  background-attachment: 100vh;
-  background-repeat: no-repeat;
-  color: #fff;
+h1 {
+  font-size: 300%;
 }
-
-br {
-  padding-bottom: 0.3rem;
-  color: black;
-}
-
 img {
-  width: 10%;
-  height: 10%;
-}
-
-img:hover {
-  width: 30%;
-  height: 30%;
-  transform: rotate(180 deg);
-  border: solid 0.5rem palevioletred;
-  transition: 2s;
-}
-.link:hover {
-  font-size: 200rem;
-  color: rgb(66, 26, 177);
-  transition: 15s;
+  max-width: 100%;
+  max-height: auto;
 }
