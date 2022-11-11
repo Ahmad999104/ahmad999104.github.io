@@ -1,45 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-    <meta http-equiv="Pragma" content="no-cache" />
-    <meta http-equiv="Expires" content="0" />  
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="x-UA-compatible" content="edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <div style="background-image: url('images/image0.jpg')"></div>
-  <body> 
-    <button class=right onclick="window.print()">print Ahmad's resume</button>
-    <title>Ahmad</title>
-    <p><a href="https://ahmad999104.github.io/application.html">Visit Application Form Page</a></p>
-    <h1><br>Ahmad Mansour</br></h1>
-    <button onclick="myFunction()">Ahmad mansour</button>
-    <p id="demo"></p>
-  
-    
-    <p><br> hello my name is ahmad mansour and im studing in al najah unviersity in nablus </br>
-      now im studying computer science becouse i like to program ,i like to swimm every day  
-     </p>
-    <a class="link" href="https://github.com/Ahmad999104" target="_blank">My github</a>
-    <h3><img src="images/image0.jpg" alt="picture" /></h3>
-    <h3>education background.</h3>
-    <li>diploma</li>
-    <li>in progress : bsc computer science</li>
-    <h2>work experiences.</h2>
-    <li>cashier</li>
-    <li>waitress</li>
-    <li>storekeeper</li>
-    <h3>hobbies</h3>
-    <li>sourccer</li>
-    <li>swimming</li>
-    <li>coding</li> 
+  <body>
+    <div class="container">
+
+        <form action="">
+
+        <div class="row">
+
+            <div class="col">
+
+                <h3 class="title">billing address</h3>
+                <div class="inputbox">
+                    <span>full name :</span>
+                    <input type="text" placeholder="john deo">
+                </div>
+
+                <div class="inputbox">
+                    <span>email :</span>
+                    <input type="email" placeholder="example@example.com">
+                </div>
+
+                <div class="inputbox">
+                    <span>address :</span>
+                    <input type="text" placeholder="room-street- location">
+                </div>
+                <div class="inputbox">
+                    <span>city :</span>
+                    <input type="text" placeholder="nablus">
+                </div>
+               <div class="flex">
+                <div class="inputbox">
+                    <span>state :</span>
+                    <input type="text" placeholder="USA">
+                </div>
+                <div class="inputbox">
+                    <span>ZIP code :</span>
+                    <input type="text" placeholder="47465 798542">
+                </div>
+
+               </div>
+
+            </div>
+
+            <div class="col">
+
+                <h3 class="title">payment</h3>
+                <div class="inputbox">
+                    <span>cards accepted:</span>
+                    <img src="we-accept-credit-cards.jpg" alt="">
+                </div>
+
+                <div class="inputbox">
+                    <span>name on card  :</span>
+                    <input type="text" placeholder="mr. john deo">
+                </div>
+
+                <div class="inputbox">
+                    <span>card number:</span>
+                    <input type="number" placeholder="1234-5678-2222-5555">
+                </div>
+                <div class="inputbox">
+                    <span>exp month:</span>
+                    <input type="text" placeholder="may">
+                </div>
+               <div class="flex">
+                <div class="inputbox">
+                    <span>exp year:</span>
+                    <input type="number" placeholder="2022">
+                </div>
+                <div class="inputbox">
+                    <span>CVV :</span>
+                    <input type="text" placeholder="111">
+                </div>
+
+               </div>
+
+            </div>
+
+        </div>
+
+        <input type="submit"  value="proceed to checkout" class="submit-btn">
+
+        </form>
+    </div>
     
   </body>
-  <script>
-    function  myFunction(){
-      document.getElementById("demo").innerHTML = "welcome to ahmad's site, please let me know if you have any questions";
-    }
-</script>
-</html>
+</html>  
